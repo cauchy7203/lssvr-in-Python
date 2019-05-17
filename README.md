@@ -10,7 +10,7 @@ Details of the mathematical formulations can be found in his book
 
 Directly run the demo_lssvr.py and you will see the results
 
-![image](http://github.com/cauchy7203/readme_add_pic/Figures/master/test_sine.png)
+![image](https://github.com/cauchy7203/Figures/blob/master/test_sine.png)
 
 
 
