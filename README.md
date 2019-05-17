@@ -8,7 +8,11 @@ Details of the mathematical formulations can be found in his book
 
 "Suykens Johan. Least squares support vector machines. World Scientific, 2002."
 
-Directly run the demo_lssvr.py.
+Directly run the demo_lssvr.py and you will see the results
+
+![image](http://github.com/cauchy7203/readme_add_pic/Figures/master/test_sine.png)
+
+
 
 Good Luck and enjoy it!
 
