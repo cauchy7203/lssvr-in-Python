@@ -26,17 +26,6 @@ def compute_lssvr(x_sample,x_test,lam,alpha,b):
     output = np.dot(matrix,alpha)+b
     return output
 
-"""
-This function computes the value of the function
-   d(aT * K * a) / d x_i
-it is not the loss function of the W(alpha,x) yet
-"""
-def compute_grad_xi(x_sample,x_i,lam,alpha, i):
-    matrix = getKernelMatrix(x_sample,x_i,lam).T
-    lssvm_loss = alpha[i]*lam*sum(alpha * matrix *(x_sample[...,:]-x_i))        
-    lssvm_loss = lssvm_loss.reshape(x_i.shape)
-    return lssvm_loss
-
 def getParams(x_sample,y_sample,lam,c):
     n = y_sample.shape[0]
     matrix = getKernelBlock(x_sample,x_sample,lam,10)
