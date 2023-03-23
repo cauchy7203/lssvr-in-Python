@@ -14,7 +14,7 @@ Directly run the demo_lssvr.py and you will see the results
 
 
 
-Good Luck and enjoy it!
+Good luck and enjoy it!
 
 
 More extended works based on lssvm formulation with kernels can be found at our google page:
